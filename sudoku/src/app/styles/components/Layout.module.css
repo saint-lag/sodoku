@@ -1,0 +1,10 @@
+/* styles/components/Layout.module.css */
+
+.layout {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add additional styling as needed */
+  
