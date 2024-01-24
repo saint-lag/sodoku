@@ -8,7 +8,7 @@ interface GameControlsProps {
 
 const GameControls: FC<GameControlsProps> = ({ onNewGame, onSolve }) => {
     return (
-        <div className={styles.controls}>
+        <div className={styles.gameControls}>
             <button className={styles.button} onClick={onNewGame}>
                 New Game
             </button>

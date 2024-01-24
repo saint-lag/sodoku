@@ -14,7 +14,7 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ title, initialGrid, onNewGame, onSolve, onCellChange }) => {
     return (
-        <div className={styles.container}>
+        <div className={styles.layout}>
             <Header title={title} />
             <GameControls onNewGame={onNewGame} onSolve={onSolve} />
             <Board initialGrid={initialGrid} onCellChange={onCellChange} />
